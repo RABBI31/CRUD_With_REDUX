@@ -1,8 +1,12 @@
 import React from 'react'
+import Navber from '../layout/Navber'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+        <Navber />
+        Pages
+    </div>
   )
 }
 
