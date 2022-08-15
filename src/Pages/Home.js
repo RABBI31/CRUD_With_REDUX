@@ -1,5 +1,5 @@
 import React from 'react'
-import Navber from '../layout/Navber'
+import Navber from '../layout/Navbar'
 
 const Home = () => {
   return (

@@ -1,10 +1,13 @@
 import './App.css';
 import Home from './Pages/Home';
+import Navber from './layout/Navber'
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Home /> 
+      <Navber />
       Homepage
     </div>
   );
