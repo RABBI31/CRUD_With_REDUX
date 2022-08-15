@@ -1,13 +1,11 @@
-import React from 'react'
-import Navber from '../layout/Navbar'
+import React from "react";
 
 const Home = () => {
   return (
     <div>
-        <Navber />
-        Pages
+      <h1>Home Page</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

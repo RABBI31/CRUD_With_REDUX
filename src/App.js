@@ -1,16 +1,9 @@
-import './App.css';
-import Home from './Pages/Home';
-import Navber from './layout/Navber'
-
+import "./App.css";
+import Index from "./routes/Index";
 
 function App() {
-  return (
-    <div>
-      <Home /> 
-      <Navber />
-      Homepage
-    </div>
-  );
+  return <Index />;
+
 }
 
 export default App;
