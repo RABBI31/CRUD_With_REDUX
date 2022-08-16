@@ -8,20 +8,25 @@
   outline: none;
 }
 body {
-  background-color: beige;
+  background-color: rgba(160, 166, 169, 0);
+ 
 }
 nav {
-  background-color: rgb(235, 155, 155);
+  background-color: #8bd6ded1;
   height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.052);
+  margin-bottom: 2rem;
 }
 .nav-link {
   color: black;
-  margin: 0 1rem 0 0;
+  font-weight: bold;
+  margin: 1rem 1rem ;
   transition: all 0.3s;
+  padding: 0.5rem;
 }
 .nav-link:hover {
   color: white;
