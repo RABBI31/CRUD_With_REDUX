@@ -1,14 +1,15 @@
 import { createSlice } from '@reduxjs/toolkit'
+const { v4: uuidv4 } = require("uuid");
 
 const initiastate = {
   books: [
     {
-      id: 1,
+      id: uuidv4(),
       title: 'React is the best',
       author: 'Unknown Person',
     },
     {
-      id: 2,
+      id: uuidv4(),
       title: 'React is the best',
       author: 'Unknown Person',
     },
